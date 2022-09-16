@@ -1,0 +1,7 @@
+Subtraction of two 8 bit numbers:
+LDA 2500
+MOV B,A
+LDA 2502
+SUB B
+STA 2504
+HLT
