@@ -1,0 +1,9 @@
+Division of two 16 bit numbers:
+MOV SI, 500
+MOV DI, 600
+MOV BL, [SI]
+INC SI
+MOV AX, [SI]
+DIV BL
+MOV [DI], AX
+HLT
